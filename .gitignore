@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+.ipynb_checkpoints/
+*.ipynb
+
+# Node
+node_modules/
+
+# Model / large binaries
+model/
+variables/
+emo_tune_api/models/
+*.h5
+*.pt
+*.ckpt
+
+# System / editor
+.DS_Store
+*.log
+.vscode/
+
+# Ignore npm lock if you prefer not to push
+# package-lock.json
